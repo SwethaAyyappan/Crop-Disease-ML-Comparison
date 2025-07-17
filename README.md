@@ -12,8 +12,10 @@ This project compares a range of machine learning algorithms for two major agric
 
 ## 📁 Project Structure
 
-<details> <summary><strong>📁 Project Structure</strong></summary>
 
+
+
+```
 Crop-Disease-ML/
 ├── catboost_info
 │   ├── catboost_training.json
@@ -66,7 +68,7 @@ Crop-Disease-ML/
 └── dataset
     └── features_with_labels.csv
 
-
+```
 
 ---
 
