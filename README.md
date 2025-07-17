@@ -12,19 +12,7 @@ This project compares a range of machine learning algorithms for two major agric
 
 ## 📁 Project Structure
 
-Crop-Disease-ML/
-├── code/
-│ ├── model/
-│ │ ├── code/ # ML models (SVM, RF, XGBoost, etc.)
-│ │ └── trained_models/ # Saved .pkl and .h5 models
-│ ├── pre/ # ResNet101 feature extractor (pre.py)
-│ └── results/ # Accuracy plots
-├── dataset/ # Input CSV and image data folders
-├── catboost_info/ # Logs from CatBoost training
-├── ml_revised.pdf # Final project report
-├── README.md
-└── requirements.txt
-
+<pre> <details> <summary><strong>📁 Project Structure</strong></summary> ``` Crop-Disease-ML/ ├── code/ │ ├── model/ │ │ ├── code/ # ML models (SVM, RF, XGBoost, etc.) │ │ └── trained_models/ # Saved .pkl and .h5 models │ ├── pre/ # ResNet101 feature extractor (pre.py) │ └── results/ # Accuracy plots ├── dataset/ # Input CSV and image data ├── catboost_info/ # Logs from CatBoost training ├── ml_revised.pdf # Final project report ├── README.md └── requirements.txt ``` </details> </pre>
 
 
 ---
