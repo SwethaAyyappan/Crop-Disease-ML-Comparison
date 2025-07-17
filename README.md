@@ -12,7 +12,60 @@ This project compares a range of machine learning algorithms for two major agric
 
 ## 📁 Project Structure
 
-<pre> <details> <summary><strong>📁 Project Structure</strong></summary> ``` Crop-Disease-ML/ ├── code/ │ ├── model/ │ │ ├── code/ # ML models (SVM, RF, XGBoost, etc.) │ │ └── trained_models/ # Saved .pkl and .h5 models │ ├── pre/ # ResNet101 feature extractor (pre.py) │ └── results/ # Accuracy plots ├── dataset/ # Input CSV and image data ├── catboost_info/ # Logs from CatBoost training ├── ml_revised.pdf # Final project report ├── README.md └── requirements.txt ``` </details> </pre>
+<details> <summary><strong>📁 Project Structure</strong></summary>
+
+Crop-Disease-ML/
+├── catboost_info
+│   ├── catboost_training.json
+│   ├── learn
+│   │   └── events.out.tfevents
+│   ├── learn_error.tsv
+│   ├── test
+│   │   └── events.out.tfevents
+│   ├── test_error.tsv
+│   ├── time_left.tsv
+│   └── tmp
+├── code
+│   ├── model
+│   │   ├── code
+│   │   │   ├── _eval.py
+│   │   │   ├── adaboost.py
+│   │   │   ├── bagging.py
+│   │   │   ├── cat_boost_classifier.py
+│   │   │   ├── decision_trees.py
+│   │   │   ├── deeplearning.py
+│   │   │   ├── gradiant_boosting.py
+│   │   │   ├── knn.py
+│   │   │   ├── logistic_regression.py
+│   │   │   ├── naive_bayes.py
+│   │   │   ├── neuralnet.py
+│   │   │   ├── perceptron.py
+│   │   │   ├── random_forest.py
+│   │   │   ├── svm.py
+│   │   │   └── xg_boost_classifier.py
+│   │   └── trained_models
+│   │       ├── adaboost.pkl
+│   │       ├── bagging.pkl
+│   │       ├── catboost_model.pkl
+│   │       ├── decision_tree.pkl
+│   │       ├── deep_learning_model.h5
+│   │       ├── gradient_boosting.pkl
+│   │       ├── knn.pkl
+│   │       ├── logistic_regression.pkl
+│   │       ├── naive_bayes.pkl
+│   │       ├── neural_net.pkl
+│   │       ├── perceptron.pkl
+│   │       ├── random_forest.pkl
+│   │       ├── svm.pkl
+│   │       └── xgboost_model.pkl
+│   ├── pre
+│   │   └── pre.py
+│   └── results
+│       ├── catboost.png
+│       └── xgboost.png
+└── dataset
+    └── features_with_labels.csv
+
 
 
 ---
